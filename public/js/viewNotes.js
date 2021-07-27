@@ -38,6 +38,9 @@ window.onload = event => {
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">${note.title}</p>
+                        <span class="icon">
+                            <i class="fas fa-${note.label}"></i>
+                        </span>    
                     </header>
                     <div class="card-content">
                         <div class="content">${note.text}</div>
